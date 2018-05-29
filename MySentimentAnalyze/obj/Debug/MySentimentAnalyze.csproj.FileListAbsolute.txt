@@ -1,0 +1,39 @@
+D:\Хмара\My projects\MySentimentAnalyze\MySentimentAnalyze\bin\Debug\MySentimentAnalyze.exe.config
+D:\Хмара\My projects\MySentimentAnalyze\MySentimentAnalyze\bin\Debug\MySentimentAnalyze.exe
+D:\Хмара\My projects\MySentimentAnalyze\MySentimentAnalyze\bin\Debug\MySentimentAnalyze.pdb
+D:\Хмара\My projects\MySentimentAnalyze\MySentimentAnalyze\bin\Debug\HtmlAgilityPack.dll
+D:\Хмара\My projects\MySentimentAnalyze\MySentimentAnalyze\bin\Debug\HtmlAgilityPack.pdb
+D:\Хмара\My projects\MySentimentAnalyze\MySentimentAnalyze\bin\Debug\HtmlAgilityPack.xml
+D:\Хмара\My projects\MySentimentAnalyze\MySentimentAnalyze\obj\Debug\MySentimentAnalyze.csprojResolveAssemblyReference.cache
+D:\Хмара\My projects\MySentimentAnalyze\MySentimentAnalyze\obj\Debug\MainWindow.g.cs
+D:\Хмара\My projects\MySentimentAnalyze\MySentimentAnalyze\obj\Debug\App.g.cs
+D:\Хмара\My projects\MySentimentAnalyze\MySentimentAnalyze\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Хмара\My projects\MySentimentAnalyze\MySentimentAnalyze\obj\Debug\MySentimentAnalyze_MarkupCompile.cache
+D:\Хмара\My projects\MySentimentAnalyze\MySentimentAnalyze\obj\Debug\MySentimentAnalyze_MarkupCompile.lref
+D:\Хмара\My projects\MySentimentAnalyze\MySentimentAnalyze\obj\Debug\MainWindow.baml
+D:\Хмара\My projects\MySentimentAnalyze\MySentimentAnalyze\obj\Debug\MySentimentAnalyze.g.resources
+D:\Хмара\My projects\MySentimentAnalyze\MySentimentAnalyze\obj\Debug\MySentimentAnalyze.Properties.Resources.resources
+D:\Хмара\My projects\MySentimentAnalyze\MySentimentAnalyze\obj\Debug\MySentimentAnalyze.csproj.GenerateResource.Cache
+D:\Хмара\My projects\MySentimentAnalyze\MySentimentAnalyze\obj\Debug\MySentimentAnalyze.csproj.CoreCompileInputs.cache
+D:\Хмара\My projects\MySentimentAnalyze\MySentimentAnalyze\obj\Debug\MySentimentAnalyze.exe
+D:\Хмара\My projects\MySentimentAnalyze\MySentimentAnalyze\obj\Debug\MySentimentAnalyze.pdb
+C:\Users\Sofia\Desktop\MySentimentAnalyze\MySentimentAnalyze\bin\Debug\MySentimentAnalyze.exe.config
+C:\Users\Sofia\Desktop\MySentimentAnalyze\MySentimentAnalyze\bin\Debug\MySentimentAnalyze.exe
+C:\Users\Sofia\Desktop\MySentimentAnalyze\MySentimentAnalyze\bin\Debug\MySentimentAnalyze.pdb
+C:\Users\Sofia\Desktop\MySentimentAnalyze\MySentimentAnalyze\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Sofia\Desktop\MySentimentAnalyze\MySentimentAnalyze\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Sofia\Desktop\MySentimentAnalyze\MySentimentAnalyze\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Sofia\Desktop\MySentimentAnalyze\MySentimentAnalyze\obj\Debug\MySentimentAnalyze.csprojResolveAssemblyReference.cache
+C:\Users\Sofia\Desktop\MySentimentAnalyze\MySentimentAnalyze\obj\Debug\MainWindow.g.cs
+C:\Users\Sofia\Desktop\MySentimentAnalyze\MySentimentAnalyze\obj\Debug\App.g.cs
+C:\Users\Sofia\Desktop\MySentimentAnalyze\MySentimentAnalyze\obj\Debug\MySentimentAnalyze_MarkupCompile.cache
+C:\Users\Sofia\Desktop\MySentimentAnalyze\MySentimentAnalyze\obj\Debug\MySentimentAnalyze_MarkupCompile.lref
+C:\Users\Sofia\Desktop\MySentimentAnalyze\MySentimentAnalyze\obj\Debug\MainWindow.baml
+C:\Users\Sofia\Desktop\MySentimentAnalyze\MySentimentAnalyze\obj\Debug\MySentimentAnalyze.g.resources
+C:\Users\Sofia\Desktop\MySentimentAnalyze\MySentimentAnalyze\obj\Debug\MySentimentAnalyze.Properties.Resources.resources
+C:\Users\Sofia\Desktop\MySentimentAnalyze\MySentimentAnalyze\obj\Debug\MySentimentAnalyze.csproj.GenerateResource.Cache
+C:\Users\Sofia\Desktop\MySentimentAnalyze\MySentimentAnalyze\obj\Debug\MySentimentAnalyze.csproj.CoreCompileInputs.cache
+C:\Users\Sofia\Desktop\MySentimentAnalyze\MySentimentAnalyze\obj\Debug\MySentimentAnalyze.exe
+C:\Users\Sofia\Desktop\MySentimentAnalyze\MySentimentAnalyze\obj\Debug\MySentimentAnalyze.pdb
+C:\Users\Sofia\Desktop\MySentimentAnalyze\MySentimentAnalyze\bin\Debug\MySentimentLibrary.dll
+C:\Users\Sofia\Desktop\MySentimentAnalyze\MySentimentAnalyze\bin\Debug\MySentimentLibrary.pdb

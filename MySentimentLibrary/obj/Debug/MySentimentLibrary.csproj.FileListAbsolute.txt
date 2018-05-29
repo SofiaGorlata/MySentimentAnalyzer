@@ -1,0 +1,6 @@
+C:\Users\Sofia\Desktop\MySentimentAnalyze\MySentimentLibrary\bin\Debug\MySentimentLibrary.dll
+C:\Users\Sofia\Desktop\MySentimentAnalyze\MySentimentLibrary\bin\Debug\MySentimentLibrary.pdb
+C:\Users\Sofia\Desktop\MySentimentAnalyze\MySentimentLibrary\obj\Debug\MySentimentLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Sofia\Desktop\MySentimentAnalyze\MySentimentLibrary\obj\Debug\MySentimentLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Sofia\Desktop\MySentimentAnalyze\MySentimentLibrary\obj\Debug\MySentimentLibrary.dll
+C:\Users\Sofia\Desktop\MySentimentAnalyze\MySentimentLibrary\obj\Debug\MySentimentLibrary.pdb

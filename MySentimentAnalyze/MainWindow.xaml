@@ -1,0 +1,133 @@
+﻿<Window
+    x:Class="MySentimentAnalyze.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:MySentimentAnalyze"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="SentimentAnylyze"
+    Width="625"
+    Height="450"
+    mc:Ignorable="d">
+    <DockPanel>
+        <Menu BorderBrush="Black" DockPanel.Dock="Top">
+            <MenuItem Command="" Header="Файл">
+                <MenuItem Command="" Header="Очисти форму" />
+                <MenuItem Command="" Header="Відрити" />
+                <MenuItem Command="" Header="Зберегти" />
+                <Separator />
+                <MenuItem
+                    Command="{Binding CloseWindow_Command}"
+                    CommandParameter="{Binding ElementName=MainWindowName}"
+                    Header="Вийти" />
+            </MenuItem>
+        </Menu>
+        <Grid Margin="3" DockPanel.Dock="Bottom">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.5*" />
+                    <ColumnDefinition Width="0.5*" />
+                </Grid.ColumnDefinitions>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Label Content="Посилання:" />
+                    <TextBox
+                        Grid.Column="1"
+                        Margin="3"
+                        Text="{Binding Url}" />
+                </Grid>
+                <Grid Grid.Column="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Button
+                        Margin="3"
+                        Command="{Binding GetAllCommentsCommand}"
+                        Content="Отримати коментарі" />
+                    <Button
+                        Grid.Column="1"
+                        Margin="3"
+                        Command="{Binding AnalyzeCommand}"
+                        Content="Оцінити" />
+                    <Button
+                        Grid.Row="1"
+                        Margin="3"
+                        Command=""
+                        Content="Зберегти в xml" />
+                    <Button
+                        Grid.Row="1"
+                        Grid.Column="1"
+                        Margin="3"
+                        Command=""
+                        Content="Відкрити з xml" />
+                </Grid>
+            </Grid>
+            <Grid Grid.Row="1">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.1*" />
+                        <ColumnDefinition Width="0.5*" />
+                        <ColumnDefinition Width="0.4*" />
+                    </Grid.ColumnDefinitions>
+                    <Border Name="commentwidth1" Grid.Column="0" />
+                    <Border Name="commentwidth2" Grid.Column="1" />
+                    <Border Name="commentwidth3" Grid.Column="2" />
+                </Grid>
+                <ListView
+                    x:Name="coms"
+                    Margin="3"
+                    HorizontalAlignment="Left"
+                    DisplayMemberPath="trimmed"
+                    ItemsSource="{Binding Path=Comments, UpdateSourceTrigger=PropertyChanged}">
+                    <ListView.ItemContainerStyle>
+                        <Style TargetType="ListViewItem">
+                            <Setter Property="Height" Value="18" />
+                        </Style>
+                    </ListView.ItemContainerStyle>
+                    <ListView.Resources>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="TextTrimming" Value="CharacterEllipsis" />
+                            <Setter Property="ToolTip" Value="{Binding RelativeSource={RelativeSource Self}, Path=Text}" />
+                        </Style>
+                    </ListView.Resources>
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn
+                                Width="{Binding ElementName=commentwidth1, Path=ActualWidth}"
+                                DisplayMemberBinding="{Binding Id}"
+                                Header="№" />
+                            <GridViewColumn
+                                Width="{Binding ElementName=commentwidth2, Path=ActualWidth}"
+                                DisplayMemberBinding="{Binding Text}"
+                                Header="Текст коментаря" />
+                            <GridViewColumn
+                                Width="{Binding ElementName=commentwidth3, Path=ActualWidth}"
+                                DisplayMemberBinding="{Binding Response}"
+                                Header="Відгук (позитивний, негативний)" />
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </Grid>
+        </Grid>
+    </DockPanel>
+</Window>
