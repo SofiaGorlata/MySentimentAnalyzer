@@ -9,7 +9,8 @@ namespace MySentimentAnalyze.Models
     {
         private int id;
         private string text;
-        private string response;
+        private string naiveBayes;
+        private string logisticRegression;
         public int Id
         {
             get
@@ -34,16 +35,28 @@ namespace MySentimentAnalyze.Models
                 OnPropertyChanged(nameof(Text));
             }
         }
-        public string Response
+        public string NaiveBayes
         {
             get
             {
-                return response;
+                return naiveBayes;
             }
             set
             {
-                response = value;
-                OnPropertyChanged(nameof(Response));
+                naiveBayes = value;
+                OnPropertyChanged(nameof(NaiveBayes));
+            }
+        }
+        public string LogisticRegression
+        {
+            get
+            {
+                return logisticRegression;
+            }
+            set
+            {
+                logisticRegression = value;
+                OnPropertyChanged(nameof(LogisticRegression));
             }
         }
 
@@ -51,11 +64,12 @@ namespace MySentimentAnalyze.Models
         {
         }
 
-        public Comment(int _id, string _text, string _response)
+        public Comment(int _id, string _text, string _naiveBayes, string _logisticRegression)
         {
             Id = _id;
             Text = _text;
-            Response = _response;
+            NaiveBayes = _naiveBayes;
+            LogisticRegression = _logisticRegression;
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

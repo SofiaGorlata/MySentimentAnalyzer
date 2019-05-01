@@ -57,6 +57,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Models\MyWebClient.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Models\RelayCommand.cs" />
     <Compile Include="ViewModels\MainViewModel.cs" />
     <Page Include="MainWindow.xaml">
@@ -101,9 +104,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MySentimentLibrary\MySentimentLibrary.csproj">
+    <ProjectReference Include="..\MySentimentLibraryRegression\MySentimentLibraryRegression.csproj">
+      <Project>{4829f479-61f7-462d-beb7-ea857ee148db}</Project>
+      <Name>MySentimentLibraryRegression</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MySentimentLibrary\MySentimentLibraryBayes.csproj">
       <Project>{01e5c714-3987-4879-a234-b075d38c4c6f}</Project>
-      <Name>MySentimentLibrary</Name>
+      <Name>MySentimentLibraryBayes</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

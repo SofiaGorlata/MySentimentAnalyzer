@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySentimentAnalyze", "MySentimentAnalyze\MySentimentAnalyze.csproj", "{1F11BA96-81F1-4E24-BAD5-DD7F07C4F0B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySentimentLibrary", "MySentimentLibrary\MySentimentLibrary.csproj", "{01E5C714-3987-4879-A234-B075D38C4C6F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySentimentLibraryBayes", "MySentimentLibrary\MySentimentLibraryBayes.csproj", "{01E5C714-3987-4879-A234-B075D38C4C6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySentimentLibraryRegression", "MySentimentLibraryRegression\MySentimentLibraryRegression.csproj", "{4829F479-61F7-462D-BEB7-EA857EE148DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{01E5C714-3987-4879-A234-B075D38C4C6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01E5C714-3987-4879-A234-B075D38C4C6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01E5C714-3987-4879-A234-B075D38C4C6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4829F479-61F7-462D-BEB7-EA857EE148DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4829F479-61F7-462D-BEB7-EA857EE148DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4829F479-61F7-462D-BEB7-EA857EE148DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4829F479-61F7-462D-BEB7-EA857EE148DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

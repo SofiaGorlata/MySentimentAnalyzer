@@ -37,3 +37,6 @@ C:\Users\Sofia\Desktop\MySentimentAnalyze\MySentimentAnalyze\obj\Debug\MySentime
 C:\Users\Sofia\Desktop\MySentimentAnalyze\MySentimentAnalyze\obj\Debug\MySentimentAnalyze.pdb
 C:\Users\Sofia\Desktop\MySentimentAnalyze\MySentimentAnalyze\bin\Debug\MySentimentLibrary.dll
 C:\Users\Sofia\Desktop\MySentimentAnalyze\MySentimentAnalyze\bin\Debug\MySentimentLibrary.pdb
+C:\Users\Sofia\Desktop\MySentimentAnalyze\MySentimentAnalyze\bin\Debug\MySentimentLibraryRegression.dll
+C:\Users\Sofia\Desktop\MySentimentAnalyze\MySentimentAnalyze\bin\Debug\Independentsoft.Office.Odf.dll
+C:\Users\Sofia\Desktop\MySentimentAnalyze\MySentimentAnalyze\bin\Debug\MySentimentLibraryRegression.pdb

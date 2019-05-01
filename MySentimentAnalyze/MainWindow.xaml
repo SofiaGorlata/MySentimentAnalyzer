@@ -88,10 +88,12 @@
                         <ColumnDefinition Width="0.1*" />
                         <ColumnDefinition Width="0.5*" />
                         <ColumnDefinition Width="0.4*" />
+                        <ColumnDefinition Width="0.4*" />
                     </Grid.ColumnDefinitions>
                     <Border Name="commentwidth1" Grid.Column="0" />
                     <Border Name="commentwidth2" Grid.Column="1" />
                     <Border Name="commentwidth3" Grid.Column="2" />
+                    <Border Name="commentwidth4" Grid.Column="3" />
                 </Grid>
                 <ListView
                     x:Name="coms"
@@ -122,8 +124,12 @@
                                 Header="Текст коментаря" />
                             <GridViewColumn
                                 Width="{Binding ElementName=commentwidth3, Path=ActualWidth}"
-                                DisplayMemberBinding="{Binding Response}"
-                                Header="Відгук (позитивний, негативний)" />
+                                DisplayMemberBinding="{Binding NaiveBayes}"
+                                Header="Баєс" />
+                            <GridViewColumn
+                                Width="{Binding ElementName=commentwidth4, Path=ActualWidth}"
+                                DisplayMemberBinding="{Binding LogisticRegression}"
+                                Header="Логістична регресія" />
                         </GridView>
                     </ListView.View>
                 </ListView>

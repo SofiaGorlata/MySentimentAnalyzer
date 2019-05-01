@@ -35,7 +35,9 @@ namespace VaderSharp
             //                LexiconFullFile = reader.ReadToEnd().Split('/n');
             //                Lexicon = MakeLexDic();
             //            }
-            LexiconFullFile = File.ReadAllLines("C:/Users/Sofia/Desktop/vadersharp-master/VaderSharp/VaderSharp/lex.txt");
+            //LexiconFullFile = File.ReadAllLines("C:/Users/Sofia/Desktop/vadersharp-master/VaderSharp/VaderSharp/lex.txt");
+            //c: \users\sofia\desktop\mysentimentanalyze\mysentimentlibrary\lex.txt
+            LexiconFullFile = File.ReadAllLines("C:/Users/Sofia/Desktop/mysentimentanalyze/mysentimentlibrary/lex.txt");
             Lexicon = MakeLexDic();
         }
 
